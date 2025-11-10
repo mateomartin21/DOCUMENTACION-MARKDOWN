@@ -6,63 +6,65 @@
 ---
 ### Identificación de matrices
 
-Matriz identidad, porque la diagonal está compuesta por solo unos y los elementos fuera de la diagonal son ceros.
+## 🧩 Ejercicio 1: Identificación del tipo de matrices
 
-$$ A =
-\begin{pmatrix}
+### 🅰️ Matriz A
+\[
+A =
+\begin{bmatrix}
 1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
-$$
+0 & 1
+\end{bmatrix}
+\]
 
-MUESTRA
+**Tipo:** Identidad  
+**Argumentación:**  
+Es una matriz cuadrada con unos en la diagonal principal y ceros en las demás posiciones. Al multiplicarse por cualquier otra matriz del mismo orden, no altera sus valores; por eso se clasifica como matriz identidad.
 
-Calcula la suma de A y B
+---
 
-$$ A =
-\begin{pmatrix}
+### 🅱️ Matriz B
+\[
+B =
+\begin{bmatrix}
+3 & 0 & 0 \\
+0 & -2 & 0 \\
+0 & 0 & 5
+\end{bmatrix}
+\]
+
+**Tipo:** Diagonal  
+**Argumentación:**  
+Todos los elementos fuera de la diagonal principal son ceros, y solo los de la diagonal tienen valores distintos de cero. Esto cumple la definición de una matriz diagonal.
+
+---
+
+### 🅲 Matriz C
+\[
+C =
+\begin{bmatrix}
+2 & 1 & 4 \\
+1 & 3 & 5 \\
+4 & 5 & 6
+\end{bmatrix}
+\]
+
+**Tipo:** Simétrica  
+**Argumentación:**  
+Los elementos situados de manera opuesta respecto a la diagonal principal son iguales (\(c_{ij} = c_{ji}\)), por lo que esta matriz es simétrica.
+
+---
+
+### 🅳 Matriz D
+\[
+D =
+\begin{bmatrix}
 1 & 2 & 3 \\
-4 & 5 & 6 \\
-\end{pmatrix}
-$$
+0 & 4 & 5 \\
+0 & 0 & 6
+\end{bmatrix}
+\]
 
-$$ B =
-\begin{pmatrix}
-9 & 10 & 11 \\
-12 & 13 & 14 \\
-\end{pmatrix}
-$$
-
-$$ A + B =
-\begin{pmatrix}
-1 + 9 & 2 + 10 & 3 + 11 \\
-4 + 12 & 5 + 13 & 6 + 14 \\
-\end{pmatrix}
-$$
-
-$$ A + B =
-\begin{pmatrix}
-10 & 12 & 14 \\
-16 & 18 & 20 \\
-\end{pmatrix}
-$$
-
----
-# OTRO EJERCICIO
-...
-
-
-
-
-
-
-
-
----
-
-
-
-
-
-
-
+**Tipo:** Triangular superior  
+**Argumentación:**  
+Tiene ceros en todas las posiciones debajo de la diagonal principal y valores distintos de cero en y sobre la diagonal, cumpliendo la condición de una matriz triangular superior.
