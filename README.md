@@ -1,12 +1,12 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
-## Alumno: Tanjiro Jesús Hernández López
-## Actividad \#16 - Matrices doc
+## Alumno: Mateo Emanuel Martin Tec
+## Actividad \#16 - Matrices documentación
 
 ---
 ### Identificación de matrices
 
-Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
+Matriz identidad, porque la diagonal está compuesta por solo unos y los elementos fuera de la diagonal son ceros.
 
 $$ A =
 \begin{pmatrix}
