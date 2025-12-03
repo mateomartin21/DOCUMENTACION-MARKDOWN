@@ -2,9 +2,6 @@
 ## Materia: Fundamentos de álgebra
 ## Alumno: Mateo Emanuel Martin Tec
 ## Actividad \#22 - Matrices documentación
----
-Entendido. Aquí tienes la documentación completa formateada **exclusivamente con texto simple y Markdown**, sin usar códigos matemáticos complejos ni LaTeX, para que no tengas problemas al copiar y pegar.
-
 -----
 
 # Fundamentos de Álgebra - Solución de Ejercicios
